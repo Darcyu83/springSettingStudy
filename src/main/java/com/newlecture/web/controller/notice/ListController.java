@@ -10,9 +10,11 @@ public class ListController implements Controller{
 
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
-	System.out.println("index controller");
-		
-		ModelAndView mv = new ModelAndView("notice/list");
+	System.out.println("List controller");
+	
+	
+	
+		ModelAndView mv = new ModelAndView("notice.list");
 		//mv.addObject("data", "Hello Spring MVC ~ ");
 		//mv.setViewName("/WEB-INF/view/notice/index.jsp");
 		//prefix : /WEB-INF/view/
